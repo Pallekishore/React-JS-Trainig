@@ -1,0 +1,66 @@
+/* App.css */
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  background-color:violet;
+  list-style: none;
+  padding: 0;
+  border: 1px solid blue;
+
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid springgreen;
+  border-radius: 5px;
+}
+
+button {
+  background-color:tomato;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
